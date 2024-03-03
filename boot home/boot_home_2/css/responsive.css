@@ -1,0 +1,14 @@
+@media (min-width: 0px) and (max-width: 575px)
+{
+.re {margin-left: 156px}
+.ko{color:red}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .re{margin-left: 248px;}
+}
+@media (min-width: 768px) and (max-width: 991px){
+   .re_2{font-size: 27px;
+    margin-left: 48px;}}
+    .custom-tooltip {
+        --bs-tooltip-bg: var(--bs-primary);
+      }

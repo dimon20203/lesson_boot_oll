@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>boot_2</title>
+</head>
+<body>
+
+  <button type="button" data-bs-html="true" data-bs-sanitize="false" class="btn btn-lg btn-danger"  data-bs-toggle="popover" title="Popover title" 
+  data-bs-content='<a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover over me</a>'>Click to toggle popover</button>
+  
+  <a type="button" class="ttip btn btn-secondary" data-bs-toggle="tooltip" data-popper-placement="left" title="Tooltip on right">
+    Tooltip on right
+  </a>
+
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-html="true"
+data-bs-content="<a href='#' class='ttip link-danger' role='tooltip' data-bs-toggle='tooltip' data-bs-placement='rignt' 
+title='one'>Tooltip on top</a>">
+Click to toggle popover
+</button>
+
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-html="true"
+data-bs-content='<a type="button" class="ttipp btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" 
+title="Tooltip on right">Tooltip on right</a>'>
+Click to toggle popover 2
+</button>
+
+<footer id="footer">
+
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+  $(document).ready(function(){
+    $('[data-bs-toggle="popover"]').popover();   
+    //$('body').tooltip({ selector:'[data-bs-toggle=tooltip], [data-toggle=collapse], a, button, span, .ttipp, ttip, .tti',container:'body',placement:'bottom',html:'true',trigger:'hover' });
+    $('.ttip').tooltip();  
+  });
+
+
+</script>
+
+</body>
+</html>

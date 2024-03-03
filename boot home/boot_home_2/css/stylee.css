@@ -1,0 +1,33 @@
+.wraper{}
+.ko{ color: #004475;}
+.r{background-image: url(../images/download.jpg);}
+.my{
+    height: 400px;
+    padding-top: 100px;
+}
+:root {
+    --color1: #05b1b1;
+    --color2: #c22870;
+    --color3:#2a44d4;
+}
+.gg{color: var(--color2);}
+.ak{
+    background: linear-gradient(to bottom, rgb(158, 187, 201) 0%,rgb(255, 255, 255) 100%);
+}
+.wraper {
+    background-image: url(../images/22.jpg);
+}
+.accordion-body {
+    background: linear-gradient(to bottom, rgb(158, 187, 201) 0%,rgb(255, 255, 255) 100%);}
+
+.er {
+    background: linear-gradient(90deg, 
+    rgba(255,255,255,0) 0%, 
+    rgba(255,174,0,1) 50%, 
+    rgba(255,255,255,0) 100%);
+}
+.col-12.as {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,40 @@
+@media (min-width: 0px) and (max-width: 575px) {
+.col.qwe{
+	background: #ccc;
+}
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+.col.qwe{
+	background: yellow;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col.qwe{
+	background: red;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.col.qwe{
+	background: blue;
+}
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+.col.qwe{
+	background: green;
+}
+
+
+}
